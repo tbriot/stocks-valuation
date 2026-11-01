@@ -1,0 +1,7 @@
+date,quarter,scenario,base_definition,base_ocf_musd,growth_5y,end_multiple,end_ocf_musd,end_mcap_musd,cagr_at_current_price_pct,cagr_at_fair_price_pct,fair_price_usd,current_price_usd,shares_m
+2026-04-30,2026-Q1,pessimistic,reported_ttm,148500,0.11,14,250231,3503236,4.2,-1.1,345,265.06,10754
+2026-04-30,2026-Q1,neutral,reported_ttm,148500,0.17,20,325579,6511571,18.0,11.9,345,265.06,10754
+2026-04-30,2026-Q1,optimistic,reported_ttm,148500,0.22,28,401352,11237861,31.6,24.8,345,265.06,10754
+2026-10-31,2026-Q3,pessimistic,adjusted_tax_sbc,134427,0.10,12,216496,2597952,0.0,-1.6,260,240.35,10811
+2026-10-31,2026-Q3,neutral,adjusted_tax_sbc,134427,0.15,18,270381,4866853,13.4,11.6,260,240.35,10811
+2026-10-31,2026-Q3,optimistic,adjusted_tax_sbc,134427,0.20,25,334497,8362435,26.3,24.4,260,240.35,10811

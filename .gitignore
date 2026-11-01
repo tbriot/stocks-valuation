@@ -1,0 +1,6 @@
+# Source documents (10-Q, 10-K, earnings releases, presentations): too large.
+# Re-downloadable, e.g. with the amazon-quarterly-results skill.
+*/documents/
+
+# Claude Code personal settings
+.claude/settings.local.json
