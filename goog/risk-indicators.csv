@@ -1,0 +1,4 @@
+date,quarter,lt_debt_musd,lt_debt_over_ocf_ttm,lt_debt_over_op_income_ttm,net_debt_over_ocf_ttm,fcf_ttm_musd,interest_expense_q_musd,interest_coverage_q,shares_yoy_pct,sbc_ttm_musd,sbc_over_ocf_pct
+2026-04-29,2026-Q1,77501,0.44,0.56,-0.28,64429,533,74.5,-0.3,26188,15.0
+2026-07-22,2026-Q2,98165,0.53,0.66,-0.78,53273,1278,31.9,1.0,28147,15.2
+2026-10-28,2026-Q3,125102,0.70,0.80,-0.78,19747,967,42.0,1.8,30409,16.9
