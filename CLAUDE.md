@@ -8,6 +8,7 @@ Quarterly 5-year scenario valuation of stocks (portfolio and watchlist).
 - Layout of each stock folder: see "Repository layout" in `valuation-process.md`.
 - For AMZN, the `amazon-quarterly-results` skill downloads the earnings release, presentation and 10-Q/10-K into `amzn/documents/earnings/<year> Q<n>/`. If those files are missing for the quarter, run it before starting the update.
 - For GOOG, the `alphabet-quarterly-results` skill does the same into `goog/documents/earnings/<year> Q<n>/`.
+- For MA, the `mastercard-quarterly-results` skill does the same into `ma/documents/earnings/<year> Q<n>/`.
 
 ## How to work
 

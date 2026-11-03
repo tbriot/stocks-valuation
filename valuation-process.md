@@ -69,8 +69,6 @@ After each earnings release (10-Q, earnings release, presentation):
 8. Write `<ticker>/valuations/<year>-Q<n>.md` with six sections: (1) results analysis; (2) assumption review, with the reason for each change and the risk indicators; (3) one table with the assumptions and the valuation at the current price (one row each for growth and end multiple, with the previous quarter's value in brackets on the same row); (4) the fair price, shown as a large heading (`# 330 $`), then, each as its own paragraph (blank line between), the previous fair price in brackets (`(précédent: 345 $)`) and the current price with its date and the gap with the fair price (`Prix courant: 240,35 $ (2026-10-30) — écart avec le prix juste: **-27,2 %** (décote).`), then a table of end metric, end market cap and CAGR at the fair price. The gap is current price / fair price - 1, with a sign: negative is a discount, positive is a premium. The fair market cap is not shown; (5) the breakdown of the fair price change (base, growth, multiple); (6) external references: valuations by analysts, YouTubers or bloggers I follow, in a table (source, date, fair price or target, assumptions, link). They are for comparison only and do not set my fair price. When I give a link, record it as is (timestamp included) and leave the other fields as "à compléter" until I give the values: do not guess them from the title or from memory.
 9. Append three rows (one per scenario) to `<ticker>/history.csv` and one row to `<ticker>/risk-indicators.csv`.
 
-Also save a screenshot of the valuation matrix in `<ticker>/valuations/`, named `<year>-Q<n>-valuation.png`.
-
 ## Criteria for the end multiple
 
 The chosen metric (for example OCF) does not capture everything, so the end multiples are also driven by criteria outside it. When one of them worsens, lower the multiples; when it improves, raise them:
@@ -99,7 +97,6 @@ valuation-process.md                general rules (this file)
   process.md                        stock-specific rules and methods
   valuations/
     <year>-Q<n>.md                  one file per earnings release
-    <year>-Q<n>-valuation.png       screenshot of the valuation matrix
     <year>-archive.md               older notes
   history.csv                       one row per scenario per quarter
   risk-indicators.csv               one row per quarter
