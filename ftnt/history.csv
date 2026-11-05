@@ -1,0 +1,4 @@
+date,quarter,scenario,base_definition,base_fcf_musd,growth_5y,end_multiple,end_fcf_musd,end_mcap_musd,cagr_at_current_price_pct,cagr_at_fair_price_pct,fair_price_usd,current_price_usd,shares_m
+2026-11-05,2026-Q3,pessimistic,adj_fcf,3562,0.05,18,4546,81825,-1.9,-0.6,115,122.51,734.710
+2026-11-05,2026-Q3,neutral,adj_fcf,3562,0.12,23,6277,144373,9.9,11.3,115,122.51,734.710
+2026-11-05,2026-Q3,optimistic,adj_fcf,3562,0.15,28,7164,200593,17.4,18.9,115,122.51,734.710
