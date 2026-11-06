@@ -9,6 +9,7 @@ Quarterly 5-year scenario valuation of stocks (portfolio and watchlist).
 - For AMZN, the `amazon-quarterly-results` skill downloads the earnings release, presentation and 10-Q/10-K into `amzn/documents/earnings/<year> Q<n>/`. If those files are missing for the quarter, run it before starting the update.
 - For GOOG, the `alphabet-quarterly-results` skill does the same into `goog/documents/earnings/<year> Q<n>/`.
 - For MA, the `mastercard-quarterly-results` skill does the same into `ma/documents/earnings/<year> Q<n>/`.
+- For CSU, the `constellation-quarterly-results` skill downloads the MD&A, the financial statements and the shareholder report (PDF, IFRS, in USD; there is no 10-Q) into `csu/documents/earnings/<year> Q<n>/`.
 - For FTNT, the `fortinet-quarterly-results` skill downloads the 10-Q/10-K and the press release from SEC EDGAR into `ftnt/documents/earnings/<year> Q<n>/`, as HTML (not PDF). The presentation, prepared remarks and supplemental financials are not scriptable (the IR site blocks scripts): the user downloads them by hand.
 
 ## How to work
