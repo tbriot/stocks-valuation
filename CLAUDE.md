@@ -11,6 +11,7 @@ Quarterly 5-year scenario valuation of stocks (portfolio and watchlist).
 - For MA, the `mastercard-quarterly-results` skill does the same into `ma/documents/earnings/<year> Q<n>/`.
 - For CSU, the `constellation-quarterly-results` skill downloads the MD&A, the financial statements and the shareholder report (PDF, IFRS, in USD; there is no 10-Q) into `csu/documents/earnings/<year> Q<n>/`.
 - For FTNT, the `fortinet-quarterly-results` skill downloads the 10-Q/10-K and the press release from SEC EDGAR into `ftnt/documents/earnings/<year> Q<n>/`, as HTML (not PDF). The presentation, prepared remarks and supplemental financials are not scriptable (the IR site blocks scripts): the user downloads them by hand.
+- For BKNG, the `booking-quarterly-results` skill downloads the press release, presentation, prepared remarks, transcript and 10-Q/10-K (PDF) from the Booking Holdings IR site into `bkng/documents/earnings/<year> Q<n>/`. `bkng/process.md` is still a skeleton: the ratio and metric have to be chosen with me before the first valuation.
 
 ## How to work
 
