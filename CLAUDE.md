@@ -19,7 +19,7 @@ Quarterly 5-year scenario valuation of stocks (portfolio and watchlist).
 - The fair price must follow the rule in Step 4 of `valuation-process.md`. Show the CAGRs for nearby prices.
 - Compute every figure with Python and cross-check it against the previous quarter's file. Do not write numbers from memory.
 - State clearly what is an estimate (for example the deferred tax adjustment) and what comes from the filings.
-- The current share price comes from the `stock-quote` skill, with a web search as fallback. Give the source and the date, and ask me to confirm it.
+- The current share price comes from the `stock-quote` skill, with a web search as fallback. Give the source and the date. Do not ask me to confirm it.
 - This is a git repository, meant to be pushed to a public GitHub repo: never write anything about my holdings (share counts, positions, cost basis, accounts). Source documents (`*/documents/`) are git-ignored. Commit only when I ask.
 - Do not delete or overwrite my files without asking. Prefer adding new files and keeping the old ones.
 

@@ -15,7 +15,7 @@ Choose the ratio that is most relevant for the stock, for example P/OCF, P/E or 
 | Input | Notes |
 |---|---|
 | Exchange, ticker | |
-| Current share price | Get it with the `stock-quote` skill (Yahoo Finance via yfinance, unofficial). Give the source and the date, and I confirm it before it is used. If the skill fails, fall back to a web search |
+| Current share price | Get it with the `stock-quote` skill (Yahoo Finance via yfinance, unofficial). Give the source and the date; no confirmation from me is needed. If the skill fails, fall back to a web search |
 | Current market cap, or current shares count | Enter one; the other is derived (market cap = price x shares). Prefer the share count from the latest filing over the one from `stock-quote`, and say which one is used |
 | Current metric (TTM) | In millions |
 | Current ratio | market cap / metric |
