@@ -1,6 +1,6 @@
 ---
 name: expected-cagr
-description: Expected 5-year CAGR of a stock at the current share price, using the latest assumptions (growth, end multiple, fair price) of this repository. Takes a ticker symbol (AMZN, GOOG, MA, CSU, FTNT, ADBE, BKNG) and returns a table with the three scenarios and the gap between the current price and the fair price. Takes "all" (or no ticker) and returns one ranking table of every stock of the repository, sorted by neutral CAGR. Use when the user asks what return or CAGR to expect from a stock at today's price, to compare or rank the stocks, or whether one is over- or undervalued against the fair price.
+description: Expected 5-year CAGR of a stock at the current share price, using the latest assumptions (growth, end multiple, fair price) of this repository. Takes a ticker symbol (AMZN, GOOG, MA, CSU, FTNT, ADBE, BKNG, UBER) and returns a table with the three scenarios and the gap between the current price and the fair price. Takes "all" (or no ticker) and returns one ranking table of every stock of the repository, sorted by neutral CAGR. Use when the user asks what return or CAGR to expect from a stock at today's price, to compare or rank the stocks, or whether one is over- or undervalued against the fair price.
 ---
 
 # Expected CAGR at the current price
