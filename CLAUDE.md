@@ -4,6 +4,7 @@ Quarterly 5-year scenario valuation of stocks (portfolio and watchlist).
 
 ## Where to start
 
+- The `expected-cagr` skill gives the expected CAGR of a ticker (or a ranking of all tickers, with `all`) at the current price, from the latest `<ticker>/history.csv`, with the gap to the fair price.
 - For any request about a quarterly update or valuation, read `valuation-process.md` first (general rules), then `<ticker>/process.md` (stock-specific rules), then the latest file in `<ticker>/valuations/` as the template to follow.
 - Layout of each stock folder: see "Repository layout" in `valuation-process.md`.
 - For AMZN, the `amazon-quarterly-results` skill downloads the earnings release, presentation and 10-Q/10-K into `amzn/documents/earnings/<year> Q<n>/`. If those files are missing for the quarter, run it before starting the update.
