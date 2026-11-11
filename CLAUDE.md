@@ -14,6 +14,7 @@ Quarterly 5-year scenario valuation of stocks (portfolio and watchlist).
 - For FTNT, the `fortinet-quarterly-results` skill downloads the 10-Q/10-K and the press release from SEC EDGAR into `ftnt/documents/earnings/<year> Q<n>/`, as HTML (not PDF). The presentation, prepared remarks and supplemental financials are not scriptable (the IR site blocks scripts): the user downloads them by hand.
 - For ADBE, the `adobe-quarterly-results` skill downloads the 10-Q/10-K, the press release, the script and slides, the transcript and (from 2026 Q2) the investor datasheet (PDF) from the Adobe IR page into `adbe/documents/earnings/<fiscal year> Q<n>/`. Year and quarter are Adobe's fiscal ones. `adbe/process.md` is still a skeleton: the ratio and metric have to be chosen with me before the first valuation.
 - For BKNG, the `booking-quarterly-results` skill downloads the press release, presentation, prepared remarks, transcript and 10-Q/10-K (PDF) from the Booking Holdings IR site into `bkng/documents/earnings/<year> Q<n>/`. `bkng/process.md` is still a skeleton: the ratio and metric have to be chosen with me before the first valuation.
+- For UBER, the `uber-quarterly-results` skill downloads the press release, supplemental data, prepared remarks and transcript (PDF) from the Uber IR file host into `uber/documents/earnings/<year> Q<n>/`. The 10-Q/10-K is not downloaded.
 
 ## How to work
 
