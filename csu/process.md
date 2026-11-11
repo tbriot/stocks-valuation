@@ -20,6 +20,15 @@ P/OCF history from my notes (14/05/2026, not refreshed): 10-year min 12.6, media
 
 Limit of the metric: the consolidated OCF includes 100% of Topicus and Lumine, partly owned by minority shareholders (about 13% of FCFA2S before non-controlling interests in the first half of 2026: 168 of 1 246). P/OCF therefore overstates the cash that accrues to CSU shareholders, which is one reason for end multiples under the historical median. About $1.3B of cash sits in subsidiaries with non-recourse debt and is hard to distribute.
 
+## Working capital
+
+OCF includes the change in non-cash operating assets and liabilities (note "Changes in non-cash operating assets and liabilities" of the financial statements: receivables, unbilled revenue, payables, deferred revenue). It is volatile and often timing, so it can distort the TTM base. Each quarter:
+
+- Compute the TTM change (same TTM rule as for OCF: full year + year to date - year to date of the prior year) and its share of TTM OCF. Reference: -45 in 2024, -6 in 2025; TTM -179 at Q3 2026 (6% of OCF).
+- Keep the published OCF as the base by default (prudent). Normalize only if the TTM change exceeds about 5% of TTM OCF in either direction, and then show both bases in the note, with the fair price on each as a sensitivity. The choice of base stays mine.
+- Do not read a deferred revenue decline as timing without checking: it can also be a weaker recurring revenue base (the MD&A does not split the two).
+- Also compare OCF growth before and after the working capital change, to tell whether a slowdown comes from the business or from timing.
+
 ## Where to find the data
 
 Files are downloaded with the `constellation-quarterly-results` skill (PDF) into `documents/earnings/<year> Q<n>/`: `CSU-<year>-Q<n>-MDA.pdf`, `-Financial-Statements.pdf`, `-Shareholder-Report.pdf`. There is no 10-Q (IFRS filings on SEDAR+) and no presentation or guidance. Extract the text to `/tmp` with `pdftotext -layout`.
